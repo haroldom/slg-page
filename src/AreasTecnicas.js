@@ -34,15 +34,18 @@ const AreasTecnicas = () => {
         },
         {
             image: 'https://images.unsplash.com/photo-1648343615199-03567050abbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
-            name: 'Zapatería y Calzado'
+            name: 'Zapatería y Calzado',
+            description: 'Adéntrate en el emocionante proceso de diseño y fabricación de calzado, utilizando técnicas y materiales innovadores para crear modelos únicos.'
         },
         {
             name: 'Administración y Comercio',
-            image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80'
+            image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80',
+            description: 'Explora el mundo del marketing y las estrategias de ventas utilizadas para promover productos y servicios en el mercado competitivo actual.'
         },
         {
             image: 'https://images.unsplash.com/photo-1524234107056-1c1f48f64ab8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80',
-            name: 'Electricidad'
+            name: 'Electricidad',
+            description: ' Aprende sobre electrónica, medidas de seguridad y solución de problemas eléctricos comunes. La electricidad es esencial en nuestra sociedad moderna y te permitirá comprender tecnologías avanzadas.'
         }
     ]
     return (
