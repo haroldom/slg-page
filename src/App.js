@@ -10,6 +10,9 @@ import { useEffect, useState } from 'react';
 import { Menu } from 'Menu'
 import { Header } from 'Header';
 import Contactanos from 'Contactanos';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 function App() {
   const newsHighlights = [
     {
@@ -33,7 +36,7 @@ function App() {
   const schoolNews = [
     {
       title: 'Premiación a los estudiantes ganadores',
-      content: 'Premiación a los estudiantes ganadores del concurso de canto Cantadole a mi Perú',
+      content: 'Premiación a los estudiantes ganadores del concurso de canto Cantándole a mi Perú',
       img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/359815220_649508407207624_3964247974108908154_n.jpg?stp=dst-jpg_s600x600&_nc_cat=105&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEPyOvxwXug8Laj64m4-fWnvml41ITN9Pa-aXjUhM309oJOYzj0n_azwwdxXLrR1XIMceRl_0tbD3CfWBsmalrC&_nc_ohc=-CGuA2p5NhcAX_nNk-v&_nc_ht=scontent.flim13-1.fna&oh=00_AfBWlf4hEdCmiKhUJ87Lv2c15W4tvHTHJWAtP_r-2RvB6w&oe=64BB99A6',
       category: 'institucion'
     },
@@ -62,7 +65,7 @@ function App() {
       category: 'institucion'
     },
     {
-      title: 'Ajasajo por el día del maestro',
+      title: 'Agasajo por el día del maestro',
       content: 'La Directora de nuestra Institución Educativa "San Luis Gonzaga" de Ica Dra. Millie Edit Alvaro López y el Equipo Directivo, agasajan al Maestro Sanluisano en su Día',
       img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/358090464_645832640908534_2979919106148858135_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHtipqhdNFJE4p9GFgxhTjVQZEFSb3SzNxBkQVJvdLM3Iug7CrU1po9nEOE4AQ0-h0HNWpsCYO3XTL8G0Erg_5J&_nc_ohc=eLE3IZEIVB8AX_MjRYR&_nc_ht=scontent.flim13-1.fna&oh=00_AfCfOiKTbszCWs0SOTCQprFLxn39MjQGvLWseZXMSBXwpA&oe=64BC58CD',
       category: 'institucion'
@@ -99,6 +102,9 @@ function App() {
   const [newsFilter, setnewsFilter] = useState(schoolNews);
   const [selectValue, setSelectValue] = useState('todas')
 
+  useEffect(() => {
+    Aos.init()
+  }, [])
 
   useEffect(() => {
     if (selectValue === 'todas') {
@@ -123,7 +129,7 @@ function App() {
           <div className="img-container">
             <img src={banner} alt="banner" />
           </div>
-          <div className="banner-info">
+          <div className="banner-info" data-aos="fade-up" data-aos-duration="1200">
             <h2>Bienvenidos</h2>
             <p>La Emblematica Institución Educativa "San Luis Gonzaga, alma mater de la ciudad de Ica, le da la bienvenida, líder en calidad educativa y reconocido oficialmente como colegio Bicentenario del Perú.</p>
             <div className='banner-info-btn'>
@@ -134,8 +140,8 @@ function App() {
         </div>
         <div className="page-main-container">
           <div className="news-highlights-main-container">
-            {newsHighlights.map(newH => (
-              <div className="new-highlight-container" key={newH.title}>
+            {newsHighlights.map((newH, index) => (
+              <div data-aos="fade-up" data-aos-duration="800" data-aos-delay={index*100} className="new-highlight-container" key={newH.title}>
                 <div className="img-container">
                   <img src={newH.img} alt="" />
                 </div>
@@ -152,12 +158,12 @@ function App() {
               </div>
             ))}
           </div>
-          <div className="parent-container">
+          <div className="parent-container" >
             <div className="current-mode-main-container">
               <div className="img-container">
                 <img src={schoolMode.img} alt="" />
               </div>
-              <div className="current-mode-info">
+              <div className="current-mode-info" data-aos="fade-left" data-aos-duration="500" data-aos-delay="100">
                 <h2>#{schoolMode.mode}</h2>
                 <p>{schoolMode.text}</p>
                 <div className='current-mode-info-btn'>
@@ -169,7 +175,7 @@ function App() {
 
           </div>
           <div className='new-main-container' id='noticias'>
-            <div className="new-header">
+            <div className="new-header" data-aos="fade-right" data-aos-duration="500">
               <h1>Noticias del Colegio</h1>
               <div className="select-main-container">
                 <div className="select-container dropdown">
@@ -186,7 +192,7 @@ function App() {
             <div className="news-container">
               {
                 newsFilter.map(schoolnew => (
-                  <div className="new-container" key={schoolnew.title}>
+                  <div data-aos="fade-up" data-aos-duration="1200" className="new-container" key={schoolnew.title}>
                     <div className="new-img-container">
                       <img src={schoolnew.img} alt="" />
                       <span></span>
@@ -202,21 +208,21 @@ function App() {
 
           </div>
           <div className="managers-container" id='directivos'>
-            <h1>Nuestro Equipo Directivo</h1>
-            <div className="slider-main-container">
+            <h1 data-aos="fade-down" data-aos-duration="800">Nuestro Equipo Directivo</h1>
+            <div className="slider-main-container" data-aos="fade-up" data-aos-duration="1200">
               <span className="background-line"></span>
               <Slider />
             </div>
           </div>
           <div className="upcoming-events-main-container" id='eventos'>
-            <h2>Eventos Proximos</h2>
+            <h2>Eventos Próximos</h2>
             <div className="button-container">
               <button className='events-button'>VER TODOS</button>
             </div>
             <div className="events-container">
               {
-                upcomingEvents.map(event => (
-                  <div className="event-container" key={event.title}>
+                upcomingEvents.map((event, index) => (
+                  <div data-aos="fade-up" data-aos-duration="800" data-aos-delay={index*100} className="event-container" key={event.title}>
                     <div className="date">
                       <p>{event.month}</p>
                       <p>{event.day}</p>
@@ -235,7 +241,7 @@ function App() {
 
           </div>
           <div className="areas-tecnicas-main-container">
-            <h2>Areas Tecnicas</h2>
+            <h2 data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">Áreas Técnicas</h2>
             <AreasTecnicas />
           </div>
           <div className="contact-main-container" id='contacto'>
@@ -245,7 +251,7 @@ function App() {
       </section>
       <footer>
         <div className="footer-links">
-          <div className="footer-section">
+          <div className="footer-section" >
             <ul>
               <li><a href='#'>Contáctanos</a></li>
               <li><a href='#'>Información</a></li>

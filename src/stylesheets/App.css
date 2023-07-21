@@ -1,80 +1,39 @@
 @font-face {
-    font-family: 'CanelaDeck';
-    src: url(fonts/CanelaDeck/CanelaDeck-Black.otf);
+    font-family: 'TTRamillas';
+    src: url(fonts/TTRamillas/TTRamillas-Black.ttf);
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'CanelaDeck';
-    src: url(fonts/CanelaDeck/CanelaDeck-Bold.otf);
+    font-family: 'TTRamillas';
+    src: url(fonts/TTRamillas/TTRamillas-Bold.ttf);
     font-weight: 500;
     font-style: bold;
 }
 
 @font-face {
-    font-family: 'CanelaDeck';
-    src: url(fonts/CanelaDeck/CanelaDeck-Medium.otf);
+    font-family: 'TTRamillas';
+    src: url(fonts/TTRamillas/TTRamillas-Medium.ttf);
     font-weight: 400;
     font-style: bold;
 }
 
 @font-face {
-    font-family: 'CanelaDeck';
-    src: url(fonts/CanelaDeck/CanelaDeck-Regular.otf);
+    font-family: 'TTRamillas';
+    src: url(fonts/TTRamillas/TTRamillas-Regular.ttf);
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'CanelaDeck';
-    src: url(fonts/CanelaDeck/CanelaDeck-Light.otf);
+    font-family: 'TTRamillas';
+    src: url(fonts/TTRamillas/TTRamillas-Light.ttf);
     font-weight: 200;
 }
 
 @font-face {
-    font-family: 'CanelaDeck';
-    src: url(fonts/CanelaDeck/CanelaDeck-Light.otf);
+    font-family: 'TTRamillas';
+    src: url(fonts/TTRamillas/TTRamillas-Light.ttf);
     font-weight: 200;
-}
-
-
-/* GT FONT */
-
-@font-face {
-    font-family: 'GTAmerica';
-    src: url(fonts/GTAmerica/GT-America-Standard-Black.otf);
-    font-weight: 700;
-}
-
-@font-face {
-    font-family: 'GTAmerica';
-    src: url(fonts/GTAmerica/GT-America-Standard-Bold.otf);
-    font-weight: 500;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'GTAmerica';
-    src: url(fonts/GTAmerica/GT-America-Standard-Medium.otf);
-    font-weight: 400;
-    font-style: bold;
-}
-
-@font-face {
-    font-family: 'GTAmerica';
-    src: url(fonts/GTAmerica/GT-America-Standard-Regular.otf);
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'GTAmerica';
-    src: url(fonts/GTAmerica/GT-America-Standard-Light.otf);
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: 'GTAmerica';
-    src: url(fonts/GTAmerica/GT-America-Standard-Thin.otf);
-    font-weight: 100;
 }
 
 
@@ -83,8 +42,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 1.6rem;
-    font-family: 'GTAmerica';
-
+    font-family: 'Manrope', sans-serif;
 }
 
 body {
@@ -92,7 +50,7 @@ body {
 }
 
 p {
-    font-family: 'GTAmerica' !important;
+    font-family: 'Manrope', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
     color: #1e1e1e;
@@ -390,6 +348,10 @@ img {
     color: #fff;
 }
 
+.parent-container {
+    overflow-x: hidden;
+}
+
 .current-mode-info p {
     color: #fff;
     font-size: 1.8rem;
@@ -439,9 +401,7 @@ img {
     margin-right: 1rem;
 }
 
-
-
-button {
+.button {
     margin: 2rem 0;
     appearance: none;
     padding: 1.2rem 5rem;
@@ -479,7 +439,9 @@ button:hover {
 
 
 .new-main-container .new-header {
+    position: relative;
     padding: 2rem;
+    z-index: 4;
 }
 
 .new-main-container .new-header select {
@@ -517,7 +479,7 @@ button:hover {
 }
 
 .new-container h3 {
-    font-family: 'GTAmerica' !important;
+    font-family: 'Manrope', sans-serif;
     text-align: start;
     width: 100%;
 }
@@ -1104,7 +1066,7 @@ footer {
         width: 20rem;
     }
 
-    
+
 
 }
 
@@ -1277,10 +1239,9 @@ footer {
 }
 
 
-@media screen and (max-width: 440px) {
-
-
+@media screen and (max-width: 460px) {
     .footer-links {
+        padding: 0;
         gap: 0;
     }
 }

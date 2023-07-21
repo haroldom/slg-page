@@ -18,11 +18,11 @@ const Contactanos = () => {
     }
     return (
         <>
-            <div className="contact-form-container">
-                <h2>Contactanos</h2>
+            <div className="contact-form-container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                <h2>Contáctanos</h2>
                 <div className="col-3 input-effect">
                     <input onChange={handleSetValueContact} className="effect-16" type="text" placeholder="" />
-                    <label>Name</label>
+                    <label>Nombre</label>
                     <span className="focus-border"></span>
                 </div>
                 <div className="col-3 input-effect">
@@ -32,12 +32,12 @@ const Contactanos = () => {
                 </div>
                 <div className="col-3 input-effect">
                     <input onChange={handleSetValueContact} className="effect-16" type="text" placeholder="" />
-                    <label>Message</label>
+                    <label>Mensaje</label>
                     <span className="focus-border"></span>
                 </div>
                 <button className='button'>Enviar</button>
             </div>
-            <div className="contact-info-container">
+            <div className="contact-info-container" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
                 <h3>Contacto</h3>
                 <div><p>mesadepartes@ieslg.edu.pe</p></div>
                 <h3>Ubicación</h3>
