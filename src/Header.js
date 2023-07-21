@@ -30,11 +30,11 @@ const Header = () => {
                 <div className="nav-desktop">
                     <div className="li-container" >
                         <AiOutlineSearch className='header-icon' />
-                        <p>Menu</p>
+                        <p>Buscar</p>
                     </div>
                     <div className="li-container" onClick={handleOpenMenu}>
                         <AiOutlineMenu className='header-icon' />
-                        <p>Buscar</p>
+                        <p>Menu</p>
                     </div>
                 </div>
             </nav>

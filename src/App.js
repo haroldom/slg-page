@@ -211,7 +211,7 @@ function App() {
           <div className="upcoming-events-main-container" id='eventos'>
             <h2>Eventos Proximos</h2>
             <div className="button-container">
-              <button className='events-button'>VIEW ALL</button>
+              <button className='events-button'>VER TODOS</button>
             </div>
             <div className="events-container">
               {
