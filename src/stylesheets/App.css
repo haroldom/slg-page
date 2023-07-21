@@ -1176,7 +1176,7 @@ footer {
     }
 
     .banner-info {
-        width: 50rem;
+        width: min-content;
         height: min-content;
         position: absolute;
         top: 0;
