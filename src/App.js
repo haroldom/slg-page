@@ -62,7 +62,7 @@ function App() {
       category: 'institucion'
     },
     {
-      title: 'Asajo por el día del maestro',
+      title: 'Ajasajo por el día del maestro',
       content: 'La Directora de nuestra Institución Educativa "San Luis Gonzaga" de Ica Dra. Millie Edit Alvaro López y el Equipo Directivo, agasajan al Maestro Sanluisano en su Día',
       img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/358090464_645832640908534_2979919106148858135_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHtipqhdNFJE4p9GFgxhTjVQZEFSb3SzNxBkQVJvdLM3Iug7CrU1po9nEOE4AQ0-h0HNWpsCYO3XTL8G0Erg_5J&_nc_ohc=eLE3IZEIVB8AX_MjRYR&_nc_ht=scontent.flim13-1.fna&oh=00_AfCfOiKTbszCWs0SOTCQprFLxn39MjQGvLWseZXMSBXwpA&oe=64BC58CD',
       category: 'institucion'
