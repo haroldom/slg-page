@@ -1,0 +1,120 @@
+.areasTecnicas-slide-container {
+    max-width: 1120px;
+    width: 100%;
+}
+
+.areasTecnicas-slide-container .card {
+    background-color: #e3e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70rem;
+}
+
+.areasTecnicas-slide-container .card:hover {
+    background-color: #fff;
+}
+
+.areasTecnicas-slide-container .slide-content {
+    margin: 0 4rem;
+    overflow: hidden;
+}
+
+.areasTecnicas-slide-container .image-content,
+.areasTecnicas-slide-container .card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.areasTecnicas-slide-container .card-content .card-info{
+    width: 100%;
+}
+
+
+.areasTecnicas-slide-container .image-content {
+    position: relative;
+}
+
+.areasTecnicas-slide-container .card-content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 2.5rem 2.5rem;
+}
+
+.areasTecnicas-slide-container .image-content .card-img {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    transition: transform .2s ease-in-out;
+}
+
+.areasTecnicas-slide-container .image-content {
+    overflow: hidden;
+}
+
+.areasTecnicas-slide-container .card:hover .card-img {
+    transform: scale(1.2);
+}
+
+.areasTecnicas-slide-container .card:hover .name:after {
+    width: 100%;
+}
+
+
+.areasTecnicas-slide-container .name {
+    width: 100%;
+    text-align: start;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 1.6rem 0;
+}
+
+.name::after {
+    margin-top: .5rem;
+    content: '';
+    width: 0;
+    height: .1rem;
+    display: block;
+    background-color: #000;
+    transition: 300ms
+}
+
+
+.areasTecnicas-slide-container .button {
+    padding: 1.2rem 3rem;
+}
+
+.areasTecnicas-slide-container .rol {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: .3rem 0;
+}
+
+.areasTecnicas-slide-container .card-content-button {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.areasTecnicas-slide-container .card:hover .icon {
+    background-color: #000;
+}
+
+.areasTecnicas-slide-container .card-content-button p {
+    color: #0e0e0e !important;
+}
+
+.areasTecnicas-slide-container .card-content-button .icon {
+    margin-right: 1.2rem;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #656f77;
+    transition: background-color .2s ease-in-out;
+}
