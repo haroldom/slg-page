@@ -16,13 +16,13 @@ import 'aos/dist/aos.css'
 function App() {
   const newsHighlights = [
     {
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/360177020_651700130321785_8316414069273177547_n.jpg?_nc_cat=107&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGEUYE7lzwHkci0L3f51fMw0ANTAKT5dWjQA1MApPl1aMjlBgjUrSdhgrqePJFu1zaoQv4j1HDVu2M-BBCIWMSI&_nc_ohc=gai0RnWZSJcAX9Mq-Nw&_nc_ht=scontent.flim13-1.fna&oh=00_AfDpC16CpqgljtRIB0MzUAOOb5plCp9dg5l0EvdO1dsC-w&oe=64BD4A00',
-      title: 'Ceremonia de izamiento del Pabellón nacional',
+      img: 'https://i.ibb.co/9w6FS5f/image.png"',
+      title: 'Desfile Cívico  por los 277° Aniversario de Fundación',
       content: 'Dra. Millie Edith Alvaro Lopez, participó en la ceremonia de izamiento del Pabellón nacional en nuestra Plaza de Armas de Ica, al haber sido nuestro Colegio distinguido con un Gallardete por ser ganador del desfile por el aniversario de Ica.'
     },
     {
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/360096991_650577590434039_3471953666740226307_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHquuGhkxaiRWItVjBe5TMX01JvFjKkYD3TUm8WMqRgPZjo0gG2ouTZuIv1uIHueR2Vw036PAoI2EWyJVOA4wFL&_nc_ohc=fYURKP3foTMAX-WtvBx&_nc_ht=scontent.flim13-1.fna&oh=00_AfDRXUZm5StWTQig_GjMcjhBnXHFF86SyNwmW6yXxLTLQw&oe=64BD4DE4',
-      title: 'Premiación y entrega del Trofeo a la Selección de Futbol Sanluisana',
+      img: 'https://i.ibb.co/qkNpYp4/image.png',
+      title: 'Juego, aprendo y me siento saludable, Junto a San Luis',
       content: 'Premiación y entrega del Trofeo a la Selección de Futbol Sanluisana Campeón indiscutible de la Categoría C. La Directora Dra Millie Edith Álvaro López y su Equipo Directivo apoyando incondicionalmente a nuestro equipo.'
     }
   ]
@@ -35,39 +35,39 @@ function App() {
 
   const schoolNews = [
     {
-      title: 'Premiación a los estudiantes ganadores',
-      content: 'Premiación a los estudiantes ganadores del concurso de canto Cantándole a mi Perú',
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/359815220_649508407207624_3964247974108908154_n.jpg?stp=dst-jpg_s600x600&_nc_cat=105&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEPyOvxwXug8Laj64m4-fWnvml41ITN9Pa-aXjUhM309oJOYzj0n_azwwdxXLrR1XIMceRl_0tbD3CfWBsmalrC&_nc_ohc=-CGuA2p5NhcAX_nNk-v&_nc_ht=scontent.flim13-1.fna&oh=00_AfBWlf4hEdCmiKhUJ87Lv2c15W4tvHTHJWAtP_r-2RvB6w&oe=64BB99A6',
+      title: 'Elecciones Municipales',
+      content: 'Elecciones Municipales Escolares para elegir al Alcalde Escolar Sanluisanos',
+      img: 'https://i.ibb.co/xSzG0f6/image.png',
       category: 'institucion'
     },
     {
-      title: 'Iniciando las Actividades por la Semana Patria',
-      content: 'Se dio inició las actividades programadas por semana patria en el Colegio Bicentenario San Luis Gonzaga',
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/362231806_652725486885916_7986456468346896990_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEYe7bWO1UDT9fNW2GUek836W56w9HvIHnpbnrD0e8geW_DMLEbrnfx9juvA_gT6S42JvCjmzN0nKUAGTLYwmVH&_nc_ohc=IJI241mU450AX9ZAwlL&_nc_ht=scontent.flim13-1.fna&oh=00_AfDmzZwrIOFof8UB3ktjeyIUi0TXHof6fBeshOnEIf9ejA&oe=64BBAD1B',
+      title: 'VIDA ACTIVA, CREATIVA Y SALUDABLE',
+      content: 'Actividades y Juegos Recreativos "VIDA ACTIVA, CREATIVA Y SALUDABLE" a cargo de los Docentes de Educación Física, con la presencia de nuestra Directora y Equipo Directivo.',
+      img: 'https://i.ibb.co/LNGjMnh/image.png',
       category: 'institucion'
     },
     {
-      title: 'Premiación y entrega del Trofeo a la Selección de Futbol Sanluisana',
-      content: 'Los jovenes que conforman la selección de Futbol San Luisana, resultaron campeones en el campeonato de fútbol categoría C',
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/360090566_650577147100750_5143447796267340660_n.jpg?stp=dst-jpg_s600x600&_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGUC5B2_t15w4CMifKhaqbCbl04SzsC799uXThLOwLv37OwwXo2fPHScYNYd8VP82xI7gOCB0H5k2JbnNVe3IAO&_nc_ohc=4BrWAI0FW4AAX8ko4cO&_nc_ht=scontent.flim13-1.fna&oh=00_AfDU8A2llPnJ1qSFvQBZo--4IOFLQFdFIGCza8yKImlrzQ&oe=64BCF980',
+      title: 'Despedida a dos grandes maestros',
+      content: 'Ceremonia de Homenaje, Reconocimiento y despedida a dos grandes maestros de nuestra institución educativa; La Prof. Alicia Quispe Segovia y el Prof. José Pisconte Huarcaya.',
+      img: 'https://i.ibb.co/kDk825L/image.png',
       category: 'academico'
     },
     {
-      title: 'Aprovechamiento Sostenible de las Propiedades del Noni',
-      content: 'Exposición de los diversos trabajos e investigaciones del Noni con la finalidad de compartir e informar sobre su importancia',
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/358542454_647077140784084_2111564357345312570_n.jpg?stp=dst-jpg_s600x600&_nc_cat=107&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGqjHcobnpQ9LfraIemvgOMfm68O0U4PPl-brw7RTg8-anUSsIu6dphrCe-lKLjbgrq5GiMlHKowvJZ-6l0Rki3&_nc_ohc=nx7DFPjGISkAX9KAAHw&_nc_ht=scontent.flim13-1.fna&oh=00_AfAarszROylQ912LWfKMhhv5K7AhpHEHIBp5hI31YjOAuw&oe=64BBD2C1',
+      title: 'Participación DEVFEST ICA',
+      content: 'Estudiantes Sanluisanos del Taller de Informática participando en el Evento DEVFEST organizado por la Facultad de Ingeniería de Sistemas de la UNICA con el patrocinio de Google con los mejores ponente de Latinoamérica',
+      img: 'https://i.ibb.co/yVph4QM/image.png',
       category: 'institucion'
     },
     {
-      title: 'Charla de la Facultad de Odontología',
-      content: 'Charla y Encuesta a cargo de los Docentes y Estudiantes de la Facultad de Odontología de la Universidad Nacional San Luis Gonzaga de Ica',
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/358969816_646559470835851_5543121963636903176_n.jpg?stp=dst-jpg_s600x600&_nc_cat=100&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeH6wvgmPbaWIZ2fWByS4glSUdh6KQanp7tR2HopBqenuy2fEsyKVqmvtn-anK2oZsEFwOiM47qfYqnyCAMEbdV7&_nc_ohc=fE6_DK6ch3QAX9qxN8h&_nc_ht=scontent.flim13-1.fna&oh=00_AfDiI0hs3HbHh4WxVQPeN2LzNi14HG9JTr_sMkqpTzsR3g&oe=64BD05DF',
+      title: 'Campeones ONEM 2023',
+      content: 'Premiación a nuestros Campeones Nacionales del Concurso de Matemática ONEM 2023 por parte de la Dirección Regional de Educación Ica',
+      img: 'https://i.ibb.co/MhgKbhc/image.png',
       category: 'institucion'
     },
     {
-      title: 'Agasajo por el día del maestro',
-      content: 'La Directora de nuestra Institución Educativa "San Luis Gonzaga" de Ica Dra. Millie Edit Alvaro López y el Equipo Directivo, agasajan al Maestro Sanluisano en su Día',
-      img: 'https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/358090464_645832640908534_2979919106148858135_n.jpg?stp=dst-jpg_s600x600&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHtipqhdNFJE4p9GFgxhTjVQZEFSb3SzNxBkQVJvdLM3Iug7CrU1po9nEOE4AQ0-h0HNWpsCYO3XTL8G0Erg_5J&_nc_ohc=eLE3IZEIVB8AX_MjRYR&_nc_ht=scontent.flim13-1.fna&oh=00_AfCfOiKTbszCWs0SOTCQprFLxn39MjQGvLWseZXMSBXwpA&oe=64BC58CD',
+      title: 'Bicampeones del Concurso de Villancicos 2023',
+      content: 'La maravillosa sección L del 5to año de secundaria se consagró por segunda vez consecutiva, campeón absoluto de la categoría C',
+      img: 'https://i.ibb.co/m8P9TYR/image.png',
       category: 'institucion'
     }
   ]
@@ -141,7 +141,7 @@ function App() {
         <div className="page-main-container">
           <div className="news-highlights-main-container">
             {newsHighlights.map((newH, index) => (
-              <div data-aos="fade-up" data-aos-duration="800" data-aos-delay={index*100} className="new-highlight-container" key={newH.title}>
+              <div data-aos="fade-up" data-aos-duration="800" data-aos-delay={index * 100} className="new-highlight-container" key={newH.title}>
                 <div className="img-container">
                   <img src={newH.img} alt="" />
                 </div>
@@ -222,7 +222,7 @@ function App() {
             <div className="events-container">
               {
                 upcomingEvents.map((event, index) => (
-                  <div data-aos="fade-up" data-aos-duration="800" data-aos-delay={index*100} className="event-container" key={event.title}>
+                  <div data-aos="fade-up" data-aos-duration="800" data-aos-delay={index * 100} className="event-container" key={event.title}>
                     <div className="date">
                       <p>{event.month}</p>
                       <p>{event.day}</p>

@@ -28,7 +28,7 @@ const AreasTecnicas = () => {
             description: "Adéntrate en este emocionante campo y descubre cómo optimizar y mantener los procesos de producción, contribuyendo al desarrollo y crecimiento de las empresas.",
         },
         {
-            image: 'https://d8bwfgv5erevs.cloudfront.net/cdn/13/images/curso-profesional-acabado-carpinteria-mueble_l_primaria_1.jpg',
+            image: 'https://www.aprendum.com/cdn/13/images/curso-profesional-acabado-carpinteria-mueble_amp_primaria_1_1560503046.jpg',
             name: "Carpintería",
             description: "La carpintería es un arte atemporal con un futuro lleno de posibilidades. Sumérgete en el mundo de la madera y descubre la creatividad y habilidad necesarias para diseñar y construir muebles y estructuras únicas.",
         },
