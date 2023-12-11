@@ -2,7 +2,7 @@
   "name": "slg-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://haroldom.github.io/slg",
+  "homepage": "https://haroldom.github.io/slg-page/build",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",

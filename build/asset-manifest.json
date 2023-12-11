@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/slg-page/build/static/css/main.043e49f3.css",
+    "main.js": "/slg-page/build/static/js/main.9777e636.js",
+    "static/media/banner.png": "/slg-page/build/static/media/banner.b4b2ef38d181f8e88957.png",
+    "static/media/TTRamillas-Black.ttf": "/slg-page/build/static/media/TTRamillas-Black.0017dd7b7e82623d0e4b.ttf",
+    "static/media/TTRamillas-Light.ttf": "/slg-page/build/static/media/TTRamillas-Light.45835977ef470e20ba3f.ttf",
+    "static/media/TTRamillas-Regular.ttf": "/slg-page/build/static/media/TTRamillas-Regular.e47143a099a40dca2684.ttf",
+    "static/media/TTRamillas-Medium.ttf": "/slg-page/build/static/media/TTRamillas-Medium.b2f3f72d4a60ca4814c5.ttf",
+    "static/media/TTRamillas-Bold.ttf": "/slg-page/build/static/media/TTRamillas-Bold.e1920e98f946e7a2b2a4.ttf",
+    "static/media/SlgLogo.png": "/slg-page/build/static/media/SlgLogo.cf9800bf1eb1a38e58b9.png",
+    "static/media/SLGBN.png": "/slg-page/build/static/media/SLGBN.7f5732d6a2473284ba77.png",
+    "index.html": "/slg-page/build/index.html",
+    "main.043e49f3.css.map": "/slg-page/build/static/css/main.043e49f3.css.map",
+    "main.9777e636.js.map": "/slg-page/build/static/js/main.9777e636.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.043e49f3.css",
+    "static/js/main.9777e636.js"
+  ]
+}
